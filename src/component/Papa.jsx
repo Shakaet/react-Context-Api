@@ -3,13 +3,13 @@ import Myself from './Myself';
 import Brother from './Brother';
 import Sister from './Sister';
 
-const Papa = () => {
+const Papa = ({asset}) => {
     return (
         <div className='border border-2 p-5 m-5 rounded-lg'>
 
             <h2>Hello Papa</h2>
             <div className='flex m-5'>
-                <Myself></Myself>
+                <Myself asset={asset}></Myself>
                 <Brother></Brother>
                 <Sister></Sister>
             </div>

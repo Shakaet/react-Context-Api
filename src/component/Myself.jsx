@@ -1,13 +1,13 @@
 import React from 'react';
 import Special from './Special';
 
-const Myself = () => {
+const Myself = ({asset}) => {
     return (
         <div className='ml-3  border border-2 p-3'>
 
             <h2>Hello me</h2>
             <div>
-                <Special></Special>
+                <Special asset={asset}></Special>
             </div>
             
         </div>
